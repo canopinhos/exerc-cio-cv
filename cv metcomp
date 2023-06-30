@@ -1,0 +1,146 @@
+\documentclass[%singlesided,
+               doublesided,
+               paper=a4,
+               fontsize=10pt
+              ]{my-resume}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set geometry
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength\highlightwidth{8cm}
+\setlength\headerheight{4cm}            % note that margintop gets added to this value, i.e. the header bar is 5cm
+\setlength\marginleft{1cm}
+\setlength\marginright{\marginleft}      % needs to be 1.5 times to be actually equal. why?
+\setlength\margintop{1cm}
+\setlength\marginbottom{1cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FONTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{fontspec}
+\setmainfont{Times New Roman}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COLORS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\colorlet{highlightbarcolor}{olive}
+\colorlet{headerbarcolor}{yellow}
+
+\colorlet{headerfontcolor}{black}
+\colorlet{accent}{yellow}
+\colorlet{heading}{black}
+\colorlet{emphasis}{black}
+\colorlet{body}{black}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\name{Rayssa Rayde da S. Monteiro}
+\tagline{Brasileira, 24 anos. Mestre em Astroquímica pelo IAG/USP\\ Busco atuar na área de Astroquímica, preferencialmente na\\Meteorítica.}
+\photo[round]{foto.jpg}{\dimexpr \headerheight-\marginbottom}   % make photo exactly match the header with margintop/marginright/marginbottom as margin
+
+\makeheader
+
+\highlightbar{
+
+    \section{Contato}
+    
+    \email{rrayde2004@gmail.com}
+    \phone{+55 (21) 99286-4046}
+    \location{Fonseca, Niterói - RJ}
+    \vspace{0.5em}
+    \github{@canopinhos}{https://github.com/canopinhos}
+    
+    
+    
+    \section{Habilidades}
+    
+    \skillsection{Programação}
+    \skill{Python}{4}
+    \skill{Git}{3}
+    \skill{LaTeX}{5}
+    
+    \vspace{0.5em}
+    \skillsection{Idiomas} 
+    \skill{Português}{5}
+    \skill{Inglês}{4}
+    \skill{Espanhol}{4}
+    \skill{Italiano}{3}
+
+    \vspace{0.5em}
+    \skillsection{Outros}
+    Pacote Office. \\
+    
+    \bigskip
+    
+
+}
+\mainbar{
+    
+    
+    \section[\faGears]{Experiências}
+    \job{08/2022 - 06/2023}
+        {Observatório do Valongo, UFRJ}
+        {Voluntária em Projeto de Extensão}
+        {Participação no Projeto de Extensão Universo Acessível, do Observatório do Valongo. Desenvolvimento de materiais didáticos acessíveis para o ensino de astronomia para pessoas cegas e de baixa visão em parceria com o Instituto Benjamin Constant (IBC).}
+
+    \bigskip
+        
+    \job{11/2022 - 6/24}
+        {LABSONDA, UFRJ} {Voluntária em Pesquisa de Iniciação \\
+        Científica}
+        
+        {Pesquisa de Iniciação Científica na área da Meteorítica, trabalhando no desenvolvimento de uma nova técnica analítica para a obtenção da química total de meteoritos através de espectrômetros EDS (por dispersão de energia) na Microssonda Eletrônica (EPMA) do LABSONDA/UFRJ. Manuseio de amostras na EPMA, literatura da área e Microsoft Excel.}
+
+    \bigskip
+
+    \job{03/2026-12/2028}
+	{IAG, USP} {Mestrado em astroquímica}
+	
+	{Mestrado com foco na área da meteorítica e astroquímica experimental}
+
+    
+    \section[\faMortarBoard]{Formação Acadêmica}
+    \job{02/2020 - 12/2021}
+        {Colégio Pio XII, Niterói}
+        {Ensino Médio}
+        {}
+    \job{04/2022 - atualmente}
+    {Observatório do Valongo, UFRJ}{Bacharelado em Astronomia}
+
+
+    \job{03/2026-12/2028}
+	{Universidade de São Paulo, São Paulo}
+	{Mestrado em Astroquímica}
+    \section{Prêmios e Títulos}
+    \achievement{Menção Honrosa pelo trabalho Tateando Marte, 12° Semana de Integração Acadêmica (SIAc) da UFRJ.}
+    
+
+    \section{Habilidades Gerais}
+    \smallskip % additional skip because tag outlines use up space
+    \tag{Criativa}
+    \tag{Ágil}
+    \tag{Prestativa}
+    \tag{Proativa}
+    \tag{Flexível}
+    
+    
+   
+  
+}
+\makebody
+\clearpage
+ 
+\end{document}
+
