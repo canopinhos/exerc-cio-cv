@@ -22,15 +22,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage{fontspec}
-\setmainfont{Times New Roman}
+\setmainfont{Arial}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % COLORS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\colorlet{highlightbarcolor}{olive}
-\colorlet{headerbarcolor}{yellow}
+\colorlet{highlightbarcolor}{gray}
+\colorlet{headerbarcolor}{olive}
 
 \colorlet{headerfontcolor}{black}
 \colorlet{accent}{yellow}
@@ -47,7 +47,7 @@
 \begin{document}
 
 \name{Rayssa Rayde da S. Monteiro}
-\tagline{Brasileira, 24 anos. Mestre em Astroquímica pelo IAG/USP\\ Busco atuar na área de Astroquímica, preferencialmente na\\Meteorítica.}
+\tagline{Brasileira, 24 anos. Mestre em Astroquímica pelo IAG/USP\\ Busco atuar na área de Astroquímica, preferencialmente na Meteorítica.}
 \photo[round]{foto.jpg}{\dimexpr \headerheight-\marginbottom}   % make photo exactly match the header with margintop/marginright/marginbottom as margin
 
 \makeheader
@@ -88,29 +88,6 @@
 }
 \mainbar{
     
-    
-    \section[\faGears]{Experiências}
-    \job{08/2022 - 06/2023}
-        {Observatório do Valongo, UFRJ}
-        {Voluntária em Projeto de Extensão}
-        {Participação no Projeto de Extensão Universo Acessível, do Observatório do Valongo. Desenvolvimento de materiais didáticos acessíveis para o ensino de astronomia para pessoas cegas e de baixa visão em parceria com o Instituto Benjamin Constant (IBC).}
-
-    \bigskip
-        
-    \job{11/2022 - 6/24}
-        {LABSONDA, UFRJ} {Voluntária em Pesquisa de Iniciação \\
-        Científica}
-        
-        {Pesquisa de Iniciação Científica na área da Meteorítica, trabalhando no desenvolvimento de uma nova técnica analítica para a obtenção da química total de meteoritos através de espectrômetros EDS (por dispersão de energia) na Microssonda Eletrônica (EPMA) do LABSONDA/UFRJ. Manuseio de amostras na EPMA, literatura da área e Microsoft Excel.}
-
-    \bigskip
-
-    \job{03/2026-12/2028}
-	{IAG, USP} {Mestrado em astroquímica}
-	
-	{Mestrado com foco na área da meteorítica e astroquímica experimental}
-
-    
     \section[\faMortarBoard]{Formação Acadêmica}
     \job{02/2020 - 12/2021}
         {Colégio Pio XII, Niterói}
@@ -123,6 +100,28 @@
     \job{03/2026-12/2028}
 	{Universidade de São Paulo, São Paulo}
 	{Mestrado em Astroquímica}
+
+    \section[\faGears]{Experiências}
+    \job{08/2022 - 06/2023}
+        {Observatório do Valongo, UFRJ}
+        {Voluntária em Projeto de Extensão}
+        {Participação no Projeto de Extensão Universo Acessível, do Observatório do Valongo. Desenvolvimento de materiais didáticos acessíveis para o ensino   
+        de astronomia para pessoas cegas e de baixa visão em parceria com o Instituto Benjamin Constant (IBC).}
+
+    \bigskip
+        
+    \job{11/2022 - 6/24}
+        {LABSONDA, UFRJ} {Voluntária em Pesquisa de Iniciação \\
+        Científica}
+        
+        {Pesquisa de Iniciação Científica na área da Meteorítica, trabalhando no desenvolvimento de uma nova técnica analítica para a obtenção da química   total de meteoritos através de espectrômetros EDS (por dispersão de energia) na Microssonda Eletrônica (EPMA) do LABSONDA/UFRJ. Manuseio de amostras na EPMA, literatura da área e Microsoft Excel.}
+
+    \bigskip
+
+    \job{03/2026-12/2028}
+	{IAG, USP} {Mestrado em astroquímica}
+	
+	{Mestrado com foco na área da meteorítica e astroquímica experimental}
 
     \section{Prêmios e Títulos}
     \achievement{Menção Honrosa pelo trabalho Tateando Marte, 12° Semana de Integração Acadêmica (SIAc) da UFRJ.}
