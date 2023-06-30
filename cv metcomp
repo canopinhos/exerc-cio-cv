@@ -123,9 +123,10 @@
     \job{03/2026-12/2028}
 	{Universidade de São Paulo, São Paulo}
 	{Mestrado em Astroquímica}
+
     \section{Prêmios e Títulos}
     \achievement{Menção Honrosa pelo trabalho Tateando Marte, 12° Semana de Integração Acadêmica (SIAc) da UFRJ.}
-    
+    \achievement {Menção Honsrosa pelo trabalho Análise Química de Meteoritos na Microssonda Eletrônica, 14° Semana de Integração Acadêmica (SIAc) da UFRJ. }
 
     \section{Habilidades Gerais}
     \smallskip % additional skip because tag outlines use up space
@@ -134,7 +135,8 @@
     \tag{Prestativa}
     \tag{Proativa}
     \tag{Flexível}
-    
+    \tag{Organizada}
+    \tag{Habilidosa}
     
    
   
